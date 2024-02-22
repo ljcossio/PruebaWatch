@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41896A752B25D7C800CC70F0 /* PruebaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41896A742B25D7C800CC70F0 /* PruebaView.swift */; };
 		41A0F0C22B2589B2005FA97D /* PruebaWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41A0F0C12B2589B2005FA97D /* PruebaWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		41A0F0C72B2589B2005FA97D /* PruebaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0F0C62B2589B2005FA97D /* PruebaWatchApp.swift */; };
 		41A0F0C92B2589B2005FA97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0F0C82B2589B2005FA97D /* ContentView.swift */; };
 		41A0F0CB2B2589B4005FA97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A0F0CA2B2589B4005FA97D /* Assets.xcassets */; };
-		41A0F0CE2B2589B4005FA97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A0F0CD2B2589B4005FA97D /* Preview Assets.xcassets */; };
+		41A0F1082B25CBC6005FA97D /* Shaking3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 41A0F1072B25CBC6005FA97D /* Shaking3.wav */; };
+		41A0F10A2B25CBF2005FA97D /* Pronosticos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A0F1092B25CBF2005FA97D /* Pronosticos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +41,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41896A742B25D7C800CC70F0 /* PruebaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaView.swift; sourceTree = "<group>"; };
 		41A0F0BB2B2589B2005FA97D /* PruebaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0F0C12B2589B2005FA97D /* PruebaWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PruebaWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A0F0C62B2589B2005FA97D /* PruebaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaWatchApp.swift; sourceTree = "<group>"; };
 		41A0F0C82B2589B2005FA97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41A0F0CA2B2589B4005FA97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41A0F0CD2B2589B4005FA97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A0F1072B25CBC6005FA97D /* Shaking3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Shaking3.wav; sourceTree = "<group>"; };
+		41A0F1092B25CBF2005FA97D /* Pronosticos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pronosticos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,19 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				41A0F0C62B2589B2005FA97D /* PruebaWatchApp.swift */,
+				41A0F1092B25CBF2005FA97D /* Pronosticos.swift */,
 				41A0F0C82B2589B2005FA97D /* ContentView.swift */,
+				41896A742B25D7C800CC70F0 /* PruebaView.swift */,
 				41A0F0CA2B2589B4005FA97D /* Assets.xcassets */,
-				41A0F0CC2B2589B4005FA97D /* Preview Content */,
+				41A0F1072B25CBC6005FA97D /* Shaking3.wav */,
 			);
 			path = "PruebaWatch Watch App";
-			sourceTree = "<group>";
-		};
-		41A0F0CC2B2589B4005FA97D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				41A0F0CD2B2589B4005FA97D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A0F0CE2B2589B4005FA97D /* Preview Assets.xcassets in Resources */,
 				41A0F0CB2B2589B4005FA97D /* Assets.xcassets in Resources */,
+				41A0F1082B25CBC6005FA97D /* Shaking3.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A0F0C92B2589B2005FA97D /* ContentView.swift in Sources */,
+				41896A752B25D7C800CC70F0 /* PruebaView.swift in Sources */,
 				41A0F0C72B2589B2005FA97D /* PruebaWatchApp.swift in Sources */,
+				41A0F10A2B25CBF2005FA97D /* Pronosticos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
